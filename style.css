@@ -34,6 +34,15 @@ nav button:hover {
     color: rgb(70, 70, 70);
 }
 
+.flag {
+    width: 50px;
+    position: absolute;
+    top: 7.5px;
+    right: 15px;
+    border-radius: 2px;
+    opacity: .8;
+}
+
 .headText {
     margin: 0 auto;
     position: absolute;
@@ -78,7 +87,7 @@ nav button:hover {
 }
 
 .infoContainer figure {
-    margin: 0px auto;
+    margin: 30px auto;
     text-align: center;
     padding-bottom: 30px;
     font-size: 20px;
