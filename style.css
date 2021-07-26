@@ -68,6 +68,8 @@ nav button:hover {
     z-index: 2;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
+    top: 100%;
     justify-content: space-between;
     align-items: center;
     color: white;

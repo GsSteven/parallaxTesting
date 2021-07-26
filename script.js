@@ -2,10 +2,10 @@ let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
 timeline
-    .to('.foreground', 3, { y: -35 })
+    .to('.infoContainer', .25, { y: -50 })
+    .to('.foreground', 3, { y: -50 })
     .to('.background', 3, { y: 130 }, "-=3")
-    .to('.headText', 5, { y: -400 }, "-=3")
-    .to('.infoContainer', 3, { top: "0%" }, "-=3")
+    .to('.headText', 2.5, { y: -250 }, "-=3")
     .fromTo('.infoImage', { opacity: 0 }, { opacity: 1, duration: 3 })
     .fromTo('.textDesc', { opacity: 0 }, { opacity: 1, duration: 3 });
 
