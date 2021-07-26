@@ -15,7 +15,10 @@ body {
 nav {
     position: absolute;
     top: 15px;
-    right: 30px;
+    left: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav button {
@@ -23,6 +26,12 @@ nav button {
     border: none;
     font-weight: bold;
     cursor: pointer;
+    font-size: 18px;
+    transition: color .3s linear;
+}
+
+nav button:hover {
+    color: rgb(70, 70, 70);
 }
 
 .headText {
@@ -34,7 +43,7 @@ nav button {
 }
 
 .headText h1 {
-    font-size: 72px;
+    font-size: 96px;
 }
 .headText h3 {
     text-align: left;
@@ -67,7 +76,7 @@ nav button {
 }
 
 .infoContainer figure {
-    margin: 0 auto;
+    margin: 0px auto;
     text-align: center;
     padding-bottom: 30px;
     font-size: 20px;
@@ -90,6 +99,11 @@ nav button {
 }
 
 @media screen and (max-width: 500px) {
+
+    .headText h1 {
+        font-size: 72px;
+    }
+
     .infoContainer img {
         max-width: 100%;
     }
