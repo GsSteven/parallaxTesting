@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Fjalla One", sans-serif;
 }
 
 body {
@@ -37,7 +37,8 @@ nav button {
     font-size: 72px;
 }
 .headText h3 {
-    text-align: center;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .parallaxContainer {
@@ -61,17 +62,31 @@ nav button {
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 20px 5px 0 5px;
+    min-height: 100vh;
+    padding: 0px 5px 30px 5px;
 }
 
 .infoContainer figure {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 30px;
+    font-size: 20px;
 }
 
-.infoContainer img {
+.infoContainer span {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+}
+
+.infoImage {
     max-width: 500px;
+}
+
+.infoContainer p {
+    padding: 0 5px;
+    align-self: flex-start;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.6;
 }
 
 @media screen and (max-width: 500px) {
